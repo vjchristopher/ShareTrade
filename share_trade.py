@@ -42,7 +42,7 @@ band_trading=[800,1800,2300]
 #st.write(lsa_list)    
 
 #create a multiselect widget to display genre
-share_tab,trade_tab=st.tabs(['Share','Trade'])
+share_tab,trade_tab=st.tabs(['Spectrum Share','Spectrum Trade'])
 with share_tab:
     BANDS=st.multiselect('Choose the Bands:',options=band_sharing, default = [800,])
     LSAS= st.multiselect('Choose LSA:',options=lsa_share, default = ['Andhra Pradesh',])
